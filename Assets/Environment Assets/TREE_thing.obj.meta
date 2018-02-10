@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 82379f7e30438ad44ab1ae868b01e7e7
-timeCreated: 1518236943
+guid: 5cf5c9f362fcdaf4689146fb6253622a
+timeCreated: 1518237233
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -17,7 +17,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pCube5Mat
-    second: {fileID: 2100000, guid: 565671c7e3097f24aa2f2e92ca910a2b, type: 2}
+    second: {fileID: 2100000, guid: a073d046484082b4199b334f8bd5aa43, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
