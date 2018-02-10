@@ -11,6 +11,7 @@ public class DialogManager : MonoBehaviour {
     GameObject dateName;
     GameObject dateWords;
     GameObject yourName;
+    GameObject dialogueBox;
     GameObject opt1;
     GameObject opt2;
     GameObject opt3;
@@ -22,13 +23,14 @@ public class DialogManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         sentences = new Queue<string>();
-         dateName = GameObject.Find("dateName");
-         dateWords = GameObject.Find("dateWords");
-         yourName = GameObject.Find("yourName");
-         opt1 = GameObject.Find("option1");
-         opt2 = GameObject.Find("option2");
-         opt3 = GameObject.Find("option3");
-         opt4 = GameObject.Find("option4");
+        dateName = GameObject.Find("dateName");
+        dateWords = GameObject.Find("dateWords");
+        yourName = GameObject.Find("yourName");
+        dialogueBox = GameObject.Find("dialogBox");
+        opt1 = GameObject.Find("option1");
+        opt2 = GameObject.Find("option2");
+        opt3 = GameObject.Find("option3");
+        opt4 = GameObject.Find("option4");
 
         CurrentNode = StartNode;
         beginConversation();
@@ -75,9 +77,10 @@ public class DialogManager : MonoBehaviour {
 
     public void presentChoice()
     {
-        //hides the date's words and name
+        //hides the date's words and name and dialogue "next sentence" button.
         dateName.SetActive(false);
         dateWords.SetActive(false);
+        dialogueBox.GetComponent<Button>().interactable = false;
 
         //shows your name and choices, diables invalid choices.
         yourName.SetActive(true);
