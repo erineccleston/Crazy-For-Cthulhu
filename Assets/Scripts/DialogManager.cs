@@ -81,7 +81,7 @@ public class DialogManager : MonoBehaviour {
             {
                 opt1.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
                 opt1.SetActive(true);
-                if (sanity_bar.sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.sanity > CurrentNode.Choices[i].SanityLowest)
+                if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
                 {
                     opt1.GetComponent<Button>().interactable = true;
                 }
@@ -95,7 +95,7 @@ public class DialogManager : MonoBehaviour {
             {
                 opt2.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
                 opt2.SetActive(true);
-                if (sanity_bar.sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.sanity > CurrentNode.Choices[i].SanityLowest)
+                if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
                 {
                     opt2.GetComponent<Button>().interactable = true;
                 } else
@@ -109,7 +109,7 @@ public class DialogManager : MonoBehaviour {
             {
                 opt3.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
                 opt3.SetActive(true);
-                if (sanity_bar.sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.sanity > CurrentNode.Choices[i].SanityLowest)
+                if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
                 {
                     opt3.GetComponent<Button>().interactable = true;
                 }
@@ -123,7 +123,7 @@ public class DialogManager : MonoBehaviour {
             {
                 opt4.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
                 opt4.SetActive(true);
-                if (sanity_bar.sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.sanity > CurrentNode.Choices[i].SanityLowest)
+                if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
                 {
                     opt4.GetComponent<Button>().interactable = true;
                 }
@@ -137,7 +137,8 @@ public class DialogManager : MonoBehaviour {
 
     public void registerChoice(int choice)
     {
-        sanity_bar.updateSanity
+        //changes sanity
+        sanity_bar.UpdateSanity(CurrentNode.Choices[choice].SanityChange);
         CurrentNode = CurrentNode.Choices[choice].Next;
         beginConversation();
     }
