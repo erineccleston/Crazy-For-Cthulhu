@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class sceneryManager : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class sceneryManager : MonoBehaviour
             case GameEvents.EndDate2:
                 break;
             case GameEvents.EndFullInsanity:
+                {
+                    SceneManager.LoadScene("GameOverInsane", LoadSceneMode.Single);
+                }
                 break;
         }
     }
