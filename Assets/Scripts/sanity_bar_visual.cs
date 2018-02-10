@@ -12,7 +12,7 @@ public class sanity_bar_visual : MonoBehaviour {
       
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
 
-        fillImage.transform.localScale += new Vector3(20f, 0f, 0f);
+        fillImage.transform.localScale += new Vector3(30f, 0f, 0f);
     }
 
     // Update is called once per frame
