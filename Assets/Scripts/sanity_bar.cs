@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class sanity_bar : MonoBehaviour {
+public class sanity_bar : MonoBehaviour
+{
 
     public static float sanity;
+    private bool updated = false;
 
     // Use this for initialization
     void Start()
     {
         GameObject sanityBar = GameObject.Find("SanityFill");
-      
+
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
 
         fillImage.transform.localScale += new Vector3(30f, 0f, 0f);
@@ -23,8 +25,11 @@ public class sanity_bar : MonoBehaviour {
         GameObject sanityBar = GameObject.Find("SanityFill");
 
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
-
-        fillImage.transform.localScale += new Vector3(sanity, 0f, 0f);
+        if (updated)
+        {
+            fillImage.transform.localScale += new Vector3(sanity, 0f, 0f);
+            updated = false;
+        }
     }
 
     /// <summary>
@@ -39,5 +44,7 @@ public class sanity_bar : MonoBehaviour {
             sanity = 0;
         if (sanity == 100)
             sanity = 100;
+
+        updated = true;
     }
 }
