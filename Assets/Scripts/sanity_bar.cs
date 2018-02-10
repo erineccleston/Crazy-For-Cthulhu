@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class sanity_bar : MonoBehaviour
 {
 
-    public static float sanity;
-    private bool updated = false;
+    public static float Sanity;
+    private static bool updated = false;
 
     // Use this for initialization
     void Start()
@@ -27,7 +27,7 @@ public class sanity_bar : MonoBehaviour
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
         if (updated)
         {
-            fillImage.transform.localScale += new Vector3(sanity, 0f, 0f);
+            fillImage.transform.localScale += new Vector3(Sanity, 0f, 0f);
             updated = false;
         }
     }
@@ -35,15 +35,15 @@ public class sanity_bar : MonoBehaviour
     /// <summary>
     /// Updates sanity with a given float.
     /// </summary>
-    /// <param name="modifier">Max value 30</param>
-    public void UpdateSanity(float modifier)
+    /// <param name="modifier">added to sanity</param>
+    public static void UpdateSanity(float modifier)
     {
-        sanity += modifier;
+        Sanity += (modifier * 0.3f);
 
-        if (sanity <= 0)
-            sanity = 0;
-        if (sanity == 30)
-            sanity = 30;
+        if (Sanity <= 0)
+            Sanity = 0;
+        if (Sanity >= 30)
+            Sanity = 30;
 
         updated = true;
     }
