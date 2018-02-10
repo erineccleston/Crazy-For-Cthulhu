@@ -16,7 +16,17 @@ MonoBehaviour:
     it close to your mouth.\r\nIt smells putrid.\r\n"
   Event: 0
   Choices:
-  - Response: '..............'
+  - Response: '[Eagerly open your mouth.]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: -10
+    Next: {fileID: 0}
+  - Response: '[Purse your lips closed with all your might.]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 10
+    Next: {fileID: 0}
+  - Response: '[Hesitantly open your mouth.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
