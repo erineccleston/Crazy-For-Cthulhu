@@ -9,14 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 6_Crush
+  m_Name: 13.2_Humor
   m_EditorClassIdentifier: 
-  Name: ???
-  Dialogue: It's giant hand engulfs you in a crushing grasp.
-  Event: 1
+  Name: Cthulhu
+  Dialogue: "He makes a chirping noise.\nI\u031Bs \u0315th\u0360is \u0315what \u0489my
+    \u0361s\u031Be\u0321r\u0338va\u0327nt\u0362s call \u034Fhumor?\u0360"
+  Event: 0
   Choices:
-  - Response: You pass out.
+  - Response: '"Mmhmm..."'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0
-    Next: {fileID: 11400000, guid: 619380b08506b4948b757ee8e04453f4, type: 2}
+    Next: {fileID: 11400000, guid: 4e6094a9528b4e44f87c315787fe84ee, type: 2}

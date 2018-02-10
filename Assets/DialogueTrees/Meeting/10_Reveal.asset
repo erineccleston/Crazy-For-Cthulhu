@@ -9,14 +9,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 6_Crush
+  m_Name: 10_Reveal
   m_EditorClassIdentifier: 
   Name: ???
-  Dialogue: It's giant hand engulfs you in a crushing grasp.
-  Event: 1
+  Dialogue: 'The figure kneels down, giving you a clear view of its face.
+
+    It''s Cthulhu!
+
+    His eyes stare at you almost... tenderly?'
+  Event: 0
   Choices:
-  - Response: You pass out.
+  - Response: '...'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0
-    Next: {fileID: 11400000, guid: 619380b08506b4948b757ee8e04453f4, type: 2}
+    Next: {fileID: 11400000, guid: 29443ec56e52c9449aa4c508f8bc5512, type: 2}
