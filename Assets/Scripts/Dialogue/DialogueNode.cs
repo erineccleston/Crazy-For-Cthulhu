@@ -26,5 +26,8 @@ public enum GameEvents
 {
     None,
     EndIntro,
-    EndMeeting
+    EndMeeting,
+    EndDate1,
+    EndDate2,
+    EndFullInsanity
 }

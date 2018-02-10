@@ -17,7 +17,7 @@ MonoBehaviour:
     It becomes dark.
 
     You lean against his cold body and lull off into a deep slumber.'
-  Event: 0
+  Event: 3
   Choices:
   - Response: '[What is his deal?]'
     SanityLowest: 0

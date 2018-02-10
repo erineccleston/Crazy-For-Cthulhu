@@ -15,7 +15,7 @@ MonoBehaviour:
   Dialogue: "Cthulhu shoves it into your mouth.\r\nYou gag violently as the most unfathomable
     flavors fill your taste buds. \r\nYour vision goes white. \r\nYou\u2019re pretty
     sure you stop breathing.\r\n"
-  Event: 0
+  Event: 4
   Choices:
   - Response: '..........'
     SanityLowest: 0
