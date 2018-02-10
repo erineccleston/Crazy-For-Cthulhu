@@ -287,8 +287,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000076294}
-  m_SizeDelta: {x: 1208, y: 476}
+  m_AnchoredPosition: {x: 0.000061035, y: -0.0000076294}
+  m_SizeDelta: {x: 1265, y: 476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654143101
 MonoBehaviour:
@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 1380441134}
   - component: {fileID: 1380441133}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GameOverSane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

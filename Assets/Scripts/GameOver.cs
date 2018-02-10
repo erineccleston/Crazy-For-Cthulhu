@@ -21,10 +21,9 @@ public class GameOver : MonoBehaviour {
 		//When sanity reaches below 0
         if(sanity_bar.sanity <= 0)
         {
-            SceneManager.LoadScene(string GameOverSane, LoadSceneMode mode);
 
             //tell animator game over
-            anim.SetTrigger("Game Over");
+            anim.SetTrigger("GameOverSane");
 
             //incrememt restart timer
             restartTimer += Time.deltaTime;
@@ -33,16 +32,15 @@ public class GameOver : MonoBehaviour {
             if(restartTimer >= restartDelay)
             {
                 //reload current level
-                SceneManager.LoadScene(Scene);
+                int scene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(scene, LoadSceneMode.Single);
             }
         }
         if (sanity_bar.sanity >= 100)
         {
-            //load insane game over scene
-            SceneManager.LoadScene(string GameOverInsane, LoadSceneMode mode);
 
             //tell animator game over
-            anim.SetTrigger("Game Over");
+            anim.SetTrigger("GameOverInsane");
 
             //incrememt restart timer
             restartTimer += Time.deltaTime;
@@ -51,7 +49,8 @@ public class GameOver : MonoBehaviour {
             if (restartTimer >= restartDelay)
             {
                 //reload current level
-                SceneManager.LoadScene(Scene);
+                int scene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(scene, LoadSceneMode.Single);
             }
         }
     }
