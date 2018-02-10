@@ -27,7 +27,7 @@ public class sanity_bar : MonoBehaviour
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
         if (updated)
         {
-            fillImage.transform.localScale += new Vector3(sanity, 0f, 0f);
+            fillImage.transform.localScale += new Vector3(Sanity, 0f, 0f);
             updated = false;
         }
     }
@@ -38,12 +38,12 @@ public class sanity_bar : MonoBehaviour
     /// <param name="modifier">added to sanity</param>
     public void UpdateSanity(float modifier)
     {
-        sanity += (modifier * 0.3f);
+        Sanity += (modifier * 0.3f);
 
-        if (sanity <= 0)
-            sanity = 0;
-        if (sanity >= 30)
-            sanity = 30;
+        if (Sanity <= 0)
+            Sanity = 0;
+        if (Sanity >= 30)
+            Sanity = 30;
 
         updated = true;
     }
