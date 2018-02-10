@@ -17,10 +17,12 @@ public class Test_sanity : MonoBehaviour {
     public void SanityUp()
     {
         sanity_bar.UpdateSanity(10f);
+        Debug.Log(sanity_bar.Sanity);
     }
 
     public void SanityDown()
     {
         sanity_bar.UpdateSanity(-10f);
+        Debug.Log(sanity_bar.Sanity);
     }
 }

@@ -7,7 +7,6 @@ public class sanity_bar : MonoBehaviour
 {
 
     public static float Sanity;
-    private static bool updated = false;
 
     // Use this for initialization
     void Start()
@@ -22,14 +21,7 @@ public class sanity_bar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameObject sanityBar = GameObject.Find("SanityFill");
 
-        Image fillImage = sanityBar.gameObject.GetComponent<Image>();
-        if (updated)
-        {
-            fillImage.transform.localScale += new Vector3(Sanity, 0f, 0f);
-            updated = false;
-        }
     }
 
     /// <summary>
@@ -38,13 +30,23 @@ public class sanity_bar : MonoBehaviour
     /// <param name="modifier">added to sanity</param>
     public static void UpdateSanity(float modifier)
     {
-        Sanity += (modifier * 0.3f);
+        GameObject sanityBar = GameObject.Find("SanityFill");
 
-        if (Sanity <= 0)
-            Sanity = 0;
-        if (Sanity >= 30)
-            Sanity = 30;
+        Image fillImage = sanityBar.gameObject.GetComponent<Image>();
+        Sanity += modifier;
 
-        updated = true;
+        fillImage.transform.localScale += new Vector3(modifier * 0.15f, 0f, 0f);
+
+
+        if (Sanity <= 0f)
+        {
+            Sanity = 0f;
+            fillImage.transform.localScale = new Vector3(0f, 0f, 0f);
+        }
+        if (Sanity >= 100f)
+        {
+            Sanity = 100f;
+            fillImage.transform.localScale = new Vector3(35f, 0f, 0f);
+        }
     }
 }
