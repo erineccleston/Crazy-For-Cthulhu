@@ -25,5 +25,6 @@ public class DialogueNode : ScriptableObject
 public enum GameEvents
 {
     None,
-    EndIntro
+    EndIntro,
+    EndMeeting
 }
