@@ -147,6 +147,7 @@ public class DialogManager : MonoBehaviour {
     {
         //changes the scene if necessary
         //call scene manager with event parameter
+        FindObjectOfType<sceneryManager>().EventHappened(CurrentNode.Event);
         //changes sanity
         sanity_bar.UpdateSanity(CurrentNode.Choices[choice].SanityChange);
         CurrentNode = CurrentNode.Choices[choice].Next;
