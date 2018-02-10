@@ -16,7 +16,7 @@ public class sanity_bar : MonoBehaviour
 
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
 
-        fillImage.transform.localScale += new Vector3(30f, 0f, 0f);
+        fillImage.transform.localScale += new Vector3(15f, 0f, 0f);
     }
 
     // Update is called once per frame
@@ -35,15 +35,15 @@ public class sanity_bar : MonoBehaviour
     /// <summary>
     /// Updates sanity with a given float.
     /// </summary>
-    /// <param name="modifier"></param>
+    /// <param name="modifier">Max value 30</param>
     public void UpdateSanity(float modifier)
     {
         sanity += modifier;
 
         if (sanity <= 0)
             sanity = 0;
-        if (sanity == 100)
-            sanity = 100;
+        if (sanity == 30)
+            sanity = 30;
 
         updated = true;
     }
