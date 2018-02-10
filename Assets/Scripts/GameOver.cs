@@ -38,7 +38,7 @@ public class GameOver : MonoBehaviour
                 SceneManager.LoadScene(scene, LoadSceneMode.Single);
             }
         }
-        if (sanity_bar.sanity >= 100)
+        if (sanity_bar.Sanity >= 100)
         {
 
             //tell animator game over

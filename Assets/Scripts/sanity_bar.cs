@@ -7,7 +7,7 @@ public class sanity_bar : MonoBehaviour
 {
 
     public static float Sanity;
-    private bool updated = false;
+    private static bool updated = false;
 
     // Use this for initialization
     void Start()
@@ -36,7 +36,7 @@ public class sanity_bar : MonoBehaviour
     /// Updates sanity with a given float.
     /// </summary>
     /// <param name="modifier">added to sanity</param>
-    public void UpdateSanity(float modifier)
+    public static void UpdateSanity(float modifier)
     {
         Sanity += (modifier * 0.3f);
 

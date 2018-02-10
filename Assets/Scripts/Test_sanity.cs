@@ -16,6 +16,11 @@ public class Test_sanity : MonoBehaviour {
 
     public void SanityUp()
     {
-        //sanity_bar.UpdateSanity(10f);
+        sanity_bar.UpdateSanity(10f);
+    }
+
+    public void SanityDown()
+    {
+        sanity_bar.UpdateSanity(-10f);
     }
 }
