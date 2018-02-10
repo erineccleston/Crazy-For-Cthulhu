@@ -1,43 +1,43 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class sanity_bar : MonoBehaviour {
 
-    public float maxSanity = 100;
-    public static float sanity;
-    public float sanityBarLength;
+    public float sanity;
 
-    //Initial sanity bar
-    public void StartSanity(float updater)
+    // Use this for initialization
+    void Start()
     {
-        sanityBarLength = 0;
+        GameObject sanityBar = GameObject.Find("SanityFill");
+      
+        Image fillImage = sanityBar.gameObject.GetComponent<Image>();
+
+        fillImage.transform.localScale += new Vector3(30f, 0f, 0f);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        GameObject sanityBar = GameObject.Find("SanityFill");
+
+        Image fillImage = sanityBar.gameObject.GetComponent<Image>();
+
+        fillImage.transform.localScale += new Vector3(.sanity, 0f, 0f);
     }
 
     /// <summary>
-    /// Updates sanity depending on the choice's sanity modifier
+    /// Updates sanity with a given float.
     /// </summary>
-    public void UpdateSanity(float updater)
+    /// <param name="modifier"></param>
+    public void UpdateSanity(float modifier)
     {
-        sanity += updater;
+        sanity += modifier;
 
-        //if (sanity < 0)
-            //game over
-
-<<<<<<< HEAD
-        if (sanity > maxSanity) {
-                //game over
-            }
-=======
-        //if (sanity > maxSanity)
-            //game over
->>>>>>> a77cfc6b21ce5d7adc52c606a2fd638644cf5018
-
+        if (sanity <= 0)
+            sanity = 0;
+        if (sanity == 100)
+            sanity = 100;
     }
-
-    private void OnGUI()
-    {
-        GUI.Box(new Rect(10, 10, sanityBarLength, 20), sanity + "/" + maxSanity);
-    }
-
 }

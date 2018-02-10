@@ -9,14 +9,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 6_Crush
+  m_Name: 14_Guide
   m_EditorClassIdentifier: 
-  Name: ???
-  Dialogue: It's giant hand engulfs you in a crushing grasp.
-  Event: 1
+  Name: Cthulhu
+  Dialogue: "\"At \u0360an\u0361y\u0489 \u035Fra\u0338t\u0327e\u0335.\u0327.. \u0361Allo\u0321w\u0340
+    m\u0328e\u0362 to\u0335 \u0321gu\u0340id\u0362e \u035Ey\u0341ou \u0328thr\u0338oug\u0328h
+    R'ly\u0489e\u0489h\u035E.\r\""
+  Event: 2
   Choices:
-  - Response: You pass out.
+  - Response: Your body almost seems to move on its own.
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0
-    Next: {fileID: 11400000, guid: 619380b08506b4948b757ee8e04453f4, type: 2}
+    Next: {fileID: 0}
