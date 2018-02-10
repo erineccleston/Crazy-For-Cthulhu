@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class sanity_bar_visual : MonoBehaviour {
+public class sanity_bar : MonoBehaviour {
+
+    public float sanity;
 
     // Use this for initialization
     void Start()
@@ -22,6 +24,20 @@ public class sanity_bar_visual : MonoBehaviour {
 
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
 
-        //fillImage.transform.localScale += new Vector3(10f, 0f, 0f);
+        fillImage.transform.localScale += new Vector3(.sanity, 0f, 0f);
+    }
+
+    /// <summary>
+    /// Updates sanity with a given float.
+    /// </summary>
+    /// <param name="modifier"></param>
+    public void UpdateSanity(float modifier)
+    {
+        sanity += modifier;
+
+        if (sanity <= 0)
+            sanity = 0;
+        if (sanity == 100)
+            sanity = 100;
     }
 }
