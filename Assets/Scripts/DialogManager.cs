@@ -80,7 +80,6 @@ public class DialogManager : MonoBehaviour {
         //hides the date's words and name and dialogue "next sentence" button.
         dateName.SetActive(false);
         dateWords.SetActive(false);
-        dialogueBox.GetComponent<Button>().interactable = false;
 
         //shows your name and choices, diables invalid choices.
         yourName.SetActive(true);
