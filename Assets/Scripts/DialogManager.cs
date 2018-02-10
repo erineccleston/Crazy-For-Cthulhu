@@ -8,20 +8,24 @@ public class DialogManager : MonoBehaviour {
 
     
     public Queue<string> sentences;
-    GameObject dateName = GameObject.Find("dateName");
-    GameObject dateWords = GameObject.Find("dateWords");
-    GameObject yourName = GameObject.Find("yourName");
-    GameObject opt1 = GameObject.Find("option1");
-    GameObject opt2 = GameObject.Find("option2");
-    GameObject opt3 = GameObject.Find("option3");
-    GameObject opt4 = GameObject.Find("option4");
-
-
-
+    GameObject dateName;
+    GameObject dateWords;
+    GameObject yourName;
+    GameObject opt1;
+    GameObject opt2;
+    GameObject opt3;
+    GameObject opt4;
 
 	// Use this for initialization
 	void Start () {
         sentences = new Queue<string>();
+         dateName = GameObject.Find("dateName");
+         dateWords = GameObject.Find("dateWords");
+         yourName = GameObject.Find("yourName");
+         opt1 = GameObject.Find("option1");
+         opt2 = GameObject.Find("option2");
+         opt3 = GameObject.Find("option3");
+         opt4 = GameObject.Find("option4");
 	}
 
     public void beginConversation(DialogueNode node)
