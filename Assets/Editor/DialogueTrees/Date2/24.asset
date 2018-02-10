@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
+  m_Name: 24
+  m_EditorClassIdentifier: 
+  Name: Cthulhu
+  Dialogue: "From what I understand, this is a customary breakfast item.\r\n\r\nHe
+    stares at you expectantly.\r\n"
+  Event: 0
+  Choices:
+  - Response: '[How do you know about pancakes?] '
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 0}
+  - Response: '[What the hell is that?]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 10
+    Next: {fileID: 0}
+  - Response: '[Ooh! I love pancakes!]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: -10
+    Next: {fileID: 0}
