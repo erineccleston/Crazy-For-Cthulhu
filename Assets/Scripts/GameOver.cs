@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour {
 
-    public sanity;                  //Reference player sanity
+    public float sanity;                  //Reference player sanity
     public float restartDelay = 5;      //Restart level
 
     Animator anim;
@@ -32,7 +32,7 @@ public class GameOver : MonoBehaviour {
             if(restartTimer >= restartDelay)
             {
                 //reload current level
-                SceneManager.LoadScene(GameOverSane);
+               // SceneManager.LoadScene(GameOverSane);
             }
         }
         if (sanity >= 100)
@@ -47,7 +47,7 @@ public class GameOver : MonoBehaviour {
             if (restartTimer >= restartDelay)
             {
                 //reload current level
-                SceneManager.LoadScene(GameOverInsane);
+              //  SceneManager.LoadScene(GameOverInsane);
             }
         }
     }
