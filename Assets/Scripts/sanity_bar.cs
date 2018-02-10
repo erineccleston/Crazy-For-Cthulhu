@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class sanity_bar : MonoBehaviour
 {
 
-    public static float sanity;
+    public static float Sanity;
     private bool updated = false;
 
     // Use this for initialization
@@ -35,14 +35,14 @@ public class sanity_bar : MonoBehaviour
     /// <summary>
     /// Updates sanity with a given float.
     /// </summary>
-    /// <param name="modifier">Max value 30</param>
+    /// <param name="modifier">added to sanity</param>
     public void UpdateSanity(float modifier)
     {
-        sanity += modifier;
+        sanity += (modifier * 0.3f);
 
         if (sanity <= 0)
             sanity = 0;
-        if (sanity == 30)
+        if (sanity >= 30)
             sanity = 30;
 
         updated = true;
