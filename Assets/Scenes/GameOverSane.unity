@@ -643,7 +643,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I hope you're proud with yourself
+  m_Text: I hope you're proud of yourself
 --- !u!222 &1906714840
 CanvasRenderer:
   m_ObjectHideFlags: 0
