@@ -21,10 +21,10 @@ public class sanity_bar : MonoBehaviour {
     {
         sanity += updater;
 
-        if (sanity < 0)
+        //if (sanity < 0)
             //game over
 
-        if (sanity > maxSanity)
+        //if (sanity > maxSanity)
             //game over
 
     }
