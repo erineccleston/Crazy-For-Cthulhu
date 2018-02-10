@@ -22,6 +22,11 @@ public class sceneryManager : MonoBehaviour
                     SceneManager.LoadScene("GameOverInsane", LoadSceneMode.Single);
                 }
                 break;
+            case GameEvents.EndFullSanity:
+                {
+                    SceneManager.LoadScene("GameOverSane", LoadSceneMode.Single);
+                }
+                break;
         }
     }
 }
