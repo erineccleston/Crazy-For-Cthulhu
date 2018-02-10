@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class sanity_bar : MonoBehaviour {
 
-    public float sanity;
+    public static float sanity;
 
     // Use this for initialization
     void Start()
@@ -24,7 +24,7 @@ public class sanity_bar : MonoBehaviour {
 
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
 
-        fillImage.transform.localScale += new Vector3(.sanity, 0f, 0f);
+        fillImage.transform.localScale += new Vector3(sanity, 0f, 0f);
     }
 
     /// <summary>
