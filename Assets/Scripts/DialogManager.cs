@@ -9,43 +9,75 @@ public class DialogManager : MonoBehaviour {
     
     public Queue<string> sentences;
     GameObject dateName = GameObject.Find("dateName");
+    GameObject dateWords = GameObject.Find("dateWords");
+    GameObject yourName = GameObject.Find("yourName");
+    GameObject opt1 = GameObject.Find("option1");
+    GameObject opt2 = GameObject.Find("option2");
+    GameObject opt3 = GameObject.Find("option3");
+    GameObject opt4 = GameObject.Find("option4");
+
+
+
 
 	// Use this for initialization
 	void Start () {
         sentences = new Queue<string>();
-
 	}
 
     public void beginConversation(DialogueNode node)
     {
         Debug.Log("starting conversation");
+        //shows the date's words and name
+        dateName.SetActive(true);
+        dateWords.SetActive(true);
+
         dateName.GetComponent<Text>().text = node.Name;
         string[] lines = node.Dialogue.Split('\n');
-        foreach (string line in lines)
+        foreach(string line in lines)
         {
             sentences.Enqueue(line);
         }
 
     }
 
-    public void goToNextSentence()
+    public void goToNextSentence(DialogueNode node)
     {
         if(sentences.Count == 0)
         {
-            presentChoice();
+            presentChoice(node);
         } else
         {
             displaySentence(sentences.Dequeue()); 
         }
     }
 
-    private void displaySentence(string v)
+    private void displaySentence(string currentLine)
     {
-        throw new NotImplementedException();
+        dateWords.GetComponent<Text>().text = currentLine;
     }
 
-    private void presentChoice()
+    private void presentChoice(DialogueNode node)
     {
-        throw new NotImplementedException();
+        //hides the date's words and name
+        dateName.SetActive(false);
+        dateWords.SetActive(false);
+
+        //shows your name and choices
+        yourName.SetActive(true);
+        for(int i = 0; i < node.Choices.Length; i++)
+        {
+            if (i == 0)
+                opt1.GetComponent<Text>().text = node.Choices[i].Response;
+                opt1.SetActive(true);
+            if (i == 2)
+                opt2.GetComponent<Text>().text = node.Choices[i].Response;
+                opt2.SetActive(true);
+            if (i == 2)
+                opt3.GetComponent<Text>().text = node.Choices[i].Response;
+                opt3.SetActive(true);
+            if (i == 3)
+                opt4.GetComponent<Text>().text = node.Choices[i].Response;
+                opt4.SetActive(true);
+        }
     }
 }
