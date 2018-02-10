@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class sanity_bar : MonoBehaviour {
 
-    public float sanity;
+    public static float sanity;
+    private bool updated;
 
     // Use this for initialization
     void Start()
@@ -23,8 +24,8 @@ public class sanity_bar : MonoBehaviour {
         GameObject sanityBar = GameObject.Find("SanityFill");
 
         Image fillImage = sanityBar.gameObject.GetComponent<Image>();
-
-        fillImage.transform.localScale += new Vector3(.sanity, 0f, 0f);
+        if (updated)
+            fillImage.transform.localScale += new Vector3(sanity, 0f, 0f);
     }
 
     /// <summary>
@@ -39,5 +40,7 @@ public class sanity_bar : MonoBehaviour {
             sanity = 0;
         if (sanity == 100)
             sanity = 100;
+
+        updated = true;
     }
 }
