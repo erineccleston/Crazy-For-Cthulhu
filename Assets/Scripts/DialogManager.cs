@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour {
@@ -152,5 +153,18 @@ public class DialogManager : MonoBehaviour {
         sanity_bar.UpdateSanity(CurrentNode.Choices[choice].SanityChange);
         CurrentNode = CurrentNode.Choices[choice].Next;
         beginConversation();
+
+        if (sanity_bar.Sanity <= 0f)
+        {
+            //Sanity = 0f;
+            //fillImage.transform.localScale = new Vector3(0f, 0f, 0f);
+            SceneManager.LoadScene("GameOverSane", LoadSceneMode.Single);
+        }
+        if (sanity_bar.Sanity >= 100f)
+        {
+            //Sanity = 100f;
+            //fillImage.transform.localScale = new Vector3(35f, 0f, 0f);
+            SceneManager.LoadScene("GameOverInsane", LoadSceneMode.Single);
+        }
     }
 }

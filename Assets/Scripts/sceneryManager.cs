@@ -18,14 +18,14 @@ public class sceneryManager : MonoBehaviour
             case GameEvents.EndDate2:
                 break;
             case GameEvents.EndFullInsanity:
-                {
-                    SceneManager.LoadScene("GameOverInsane", LoadSceneMode.Single);
-                }
+                //{
+                //    SceneManager.LoadScene("GameOverInsane", LoadSceneMode.Single);
+                //}
                 break;
             case GameEvents.EndFullSanity:
-                {
-                    SceneManager.LoadScene("GameOverSane", LoadSceneMode.Single);
-                }
+               // {
+               //    SceneManager.LoadScene("GameOverSane", LoadSceneMode.Single);
+               // }
                 break;
         }
     }

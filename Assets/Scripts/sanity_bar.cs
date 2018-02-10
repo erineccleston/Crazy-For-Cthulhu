@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class sanity_bar : MonoBehaviour
@@ -41,12 +42,12 @@ public class sanity_bar : MonoBehaviour
         if (Sanity <= 0f)
         {
             Sanity = 0f;
-            fillImage.transform.localScale = new Vector3(0f, 0f, 0f);
+            SceneManager.LoadScene("GameOverSane", LoadSceneMode.Single);
         }
         if (Sanity >= 100f)
         {
             Sanity = 100f;
-            fillImage.transform.localScale = new Vector3(35f, 0f, 0f);
+            SceneManager.LoadScene("GameOverInsane", LoadSceneMode.Single);
         }
     }
 }
