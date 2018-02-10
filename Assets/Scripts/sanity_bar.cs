@@ -24,8 +24,14 @@ public class sanity_bar : MonoBehaviour {
         //if (sanity < 0)
             //game over
 
+<<<<<<< HEAD
+        if (sanity > maxSanity) {
+                //game over
+            }
+=======
         //if (sanity > maxSanity)
             //game over
+>>>>>>> a77cfc6b21ce5d7adc52c606a2fd638644cf5018
 
     }
 
