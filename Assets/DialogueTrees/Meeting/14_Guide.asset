@@ -21,4 +21,4 @@ MonoBehaviour:
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: f7fcbbcfd1dfbdf4c9aa45d73eec5945, type: 2}

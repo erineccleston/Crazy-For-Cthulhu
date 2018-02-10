@@ -89,27 +89,27 @@ public class DialogManager : MonoBehaviour {
             {
                 opt1.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
                 opt1.SetActive(true);
-                if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
-                {
-                    opt1.GetComponent<Button>().interactable = true;
-                }
-                else
-                {
-                    opt1.GetComponent<Button>().interactable = false;
-                }
+                //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
+                //{
+                //    opt1.GetComponent<Button>().interactable = true;
+                //}
+                //else
+                //{
+                //    opt1.GetComponent<Button>().interactable = false;
+                //}
             }
 
             if (i == 1)
             {
                 opt2.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
                 opt2.SetActive(true);
-                if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
-                {
-                    opt2.GetComponent<Button>().interactable = true;
-                } else
-                {
-                    opt2.GetComponent<Button>().interactable = false;
-                }
+                //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
+                //{
+                //    opt2.GetComponent<Button>().interactable = true;
+                //} else
+                //{
+                //    opt2.GetComponent<Button>().interactable = false;
+                //}
                 
             }
 
@@ -117,34 +117,36 @@ public class DialogManager : MonoBehaviour {
             {
                 opt3.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
                 opt3.SetActive(true);
-                if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
-                {
-                    opt3.GetComponent<Button>().interactable = true;
-                }
-                else
-                {
-                    opt3.GetComponent<Button>().interactable = false;
-                }
+                //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
+                //{
+                //    opt3.GetComponent<Button>().interactable = true;
+                //}
+                //else
+                //{
+                //    opt3.GetComponent<Button>().interactable = false;
+                //}
             }
 
             if (i == 3)
             {
                 opt4.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
                 opt4.SetActive(true);
-                if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
-                {
-                    opt4.GetComponent<Button>().interactable = true;
-                }
-                else
-                {
-                    opt4.GetComponent<Button>().interactable = false;
-                }
+                //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
+                //{
+                //    opt4.GetComponent<Button>().interactable = true;
+                //}
+                //else
+                //{
+                //    opt4.GetComponent<Button>().interactable = false;
+                //}
             }
         }
     }
 
     public void registerChoice(int choice)
     {
+        //changes the scene if necessary
+        //call scene manager with event parameter
         //changes sanity
         sanity_bar.UpdateSanity(CurrentNode.Choices[choice].SanityChange);
         CurrentNode = CurrentNode.Choices[choice].Next;

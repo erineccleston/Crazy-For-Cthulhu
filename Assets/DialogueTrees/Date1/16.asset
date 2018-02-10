@@ -19,14 +19,14 @@ MonoBehaviour:
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: ea73f84697b488a48bb0ee4c8c29675c, type: 2}
   - Response: '[It''s not as magnificient as you.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 10
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: f668e43276e5a5b4282982e5d7bf59ec, type: 2}
   - Response: '[I feel my mind deteriorating.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: -10
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 13931a8616e8e4445b6ce0c70c485583, type: 2}
