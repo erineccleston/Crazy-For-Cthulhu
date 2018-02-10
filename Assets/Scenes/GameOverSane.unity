@@ -444,7 +444,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -455,7 +455,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You regained your sanity and broke C'thullus heart.
+  m_Text: You regained your sanity and broke the heart of Cthulhu
 --- !u!222 &1094120042
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -490,7 +490,7 @@ Animator:
   m_GameObject: {fileID: 1380441132}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4bce0e3fca62ca5488a910596dff7e9f, type: 2}
+  m_Controller: {fileID: 9100000, guid: b7b78ef091b7e314aa951df7b31bcb9c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
