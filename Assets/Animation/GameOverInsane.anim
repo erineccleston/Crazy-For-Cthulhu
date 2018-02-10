@@ -56,6 +56,12 @@ AnimationClip:
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
+        time: 5.5
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
         time: 8
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
@@ -64,7 +70,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: SarcasmText
+    path: always
   m_FloatCurves:
   - curve:
       serializedVersion: 2
@@ -188,7 +194,7 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1340569003
+      path: 2795781147
       attribute: 3
       script: {fileID: 0}
       typeID: 4
@@ -450,6 +456,12 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 5.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
         time: 8
         value: 1
         inSlope: 0
@@ -459,7 +471,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: SarcasmText
+    path: always
     classID: 224
     script: {fileID: 0}
   - curve:
@@ -474,6 +486,12 @@ AnimationClip:
       - serializedVersion: 2
         time: 4
         value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 5.5
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -487,7 +505,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: SarcasmText
+    path: always
     classID: 224
     script: {fileID: 0}
   - curve:
@@ -506,6 +524,12 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 5.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
         time: 8
         value: 1
         inSlope: 0
@@ -515,7 +539,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: SarcasmText
+    path: always
     classID: 224
     script: {fileID: 0}
   m_EulerEditorCurves: []
