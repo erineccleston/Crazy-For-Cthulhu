@@ -31,15 +31,21 @@ public class DialogManager : MonoBehaviour {
          opt4 = GameObject.Find("option4");
 
         CurrentNode = StartNode;
-        beginConversation();// CurrentNode);
+        beginConversation();
 	}
 
-    public void beginConversation()//DialogueNode node)
+    public void beginConversation()
     {
         Debug.Log("starting conversation");
         //shows the date's words and name
         dateName.SetActive(true);
         dateWords.SetActive(true);
+        //conceals your name and choices
+        yourName.SetActive(false);
+        opt1.SetActive(false);
+        opt2.SetActive(false);
+        opt3.SetActive(false);
+        opt4.SetActive(false);
 
         dateName.GetComponent<Text>().text = CurrentNode.Name;
         string[] lines = CurrentNode.Dialogue.Split('\n');
@@ -48,14 +54,14 @@ public class DialogManager : MonoBehaviour {
             sentences.Enqueue(line);
         }
 
-        goToNextSentence();// node);
+        goToNextSentence();
     }
 
-    public void goToNextSentence()//DialogueNode node)
+    public void goToNextSentence()
     {
         if(sentences.Count == 0)
         {
-            presentChoice();// CurrentNode);
+            presentChoice();
         } else
         {
             displaySentence(sentences.Dequeue()); 
@@ -67,7 +73,7 @@ public class DialogManager : MonoBehaviour {
         dateWords.GetComponent<Text>().text = currentLine;
     }
 
-    public void presentChoice()//DialogueNode node)
+    public void presentChoice()
     {
         //hides the date's words and name
         dateName.SetActive(false);

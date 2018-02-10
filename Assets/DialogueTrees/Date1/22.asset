@@ -21,7 +21,7 @@ MonoBehaviour:
   Choices:
   - Response: '[What is his deal?]'
     SanityLowest: 0
-    SanityHighest: 0
+    SanityHighest: 100
     SanityChange: 0
     Next: {fileID: 0}
   - Response: '[I need to find a way out of here.]'
