@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class sanity_bar : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public static float sanity;
+
+    /// <summary>
+    /// Updates sanity depending on the choice's sanity modifier
+    /// </summary>
+    public void UpdateSanity(float updater)
+    {
+        sanity += updater;
+    }
 }
