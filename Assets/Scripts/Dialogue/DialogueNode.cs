@@ -2,9 +2,10 @@
 
 public class DialogueNode : ScriptableObject
 {
+    public string Name;
     [TextArea]
     public string Dialogue;
-    public float SanityChange;
+    public GameEvents Event;
     public Link[] Choices;
 
     [System.Serializable]
@@ -16,6 +17,13 @@ public class DialogueNode : ScriptableObject
         public float SanityLowest;
         [Range(0, 100)]
         public float SanityHighest;
+        public float SanityChange;
         public DialogueNode Next;
     }
+}
+
+public enum GameEvents
+{
+    None,
+    EndIntro
 }
