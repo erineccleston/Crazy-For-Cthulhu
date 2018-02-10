@@ -34,8 +34,8 @@ public class GameOver : MonoBehaviour
             if (restartTimer >= restartDelay)
             {
                 //reload current level
-                int scene = SceneManager.GetActiveScene().buildIndex;
-                SceneManager.LoadScene(scene, LoadSceneMode.Single);
+                int saneScene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(saneScene, LoadSceneMode.Single);
             }
         }
         if (sanity_bar.Sanity >= 100)
@@ -51,8 +51,8 @@ public class GameOver : MonoBehaviour
             if (restartTimer >= restartDelay)
             {
                 //reload current level
-                int scene = SceneManager.GetActiveScene().buildIndex;
-                SceneManager.LoadScene(scene, LoadSceneMode.Single);
+                int insaneScene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(insaneScene, LoadSceneMode.Single);
             }
         }
     }
