@@ -21,7 +21,7 @@ public class GameOver : MonoBehaviour
     void Update()
     {
         //When sanity reaches below 0
-        if (sanity_bar.sanity <= 0)
+        if (sanity_bar.Sanity <= 0)
         {
 
             //tell animator game over
@@ -38,7 +38,7 @@ public class GameOver : MonoBehaviour
                 SceneManager.LoadScene(scene, LoadSceneMode.Single);
             }
         }
-        if (sanity_bar.sanity >= 100)
+        if (sanity_bar.Sanity >= 100)
         {
 
             //tell animator game over
