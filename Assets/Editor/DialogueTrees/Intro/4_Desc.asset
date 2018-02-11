@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
+  m_Name: 4_Desc
+  m_EditorClassIdentifier: 
+  Name: The Ritual of Awakening
+  Dialogue: "Clouds stir in the sky, releasing several consecutive lightning strikes
+    over the ocean.\r\nThe water along the shore recedes, leaving small sea creatures
+    stranded, gasping, eyes wide.\r\nWaves swell, then collapse in on themselves.\r\nFrom
+    the center of the chaos, an incomprehensible silhouette rises. \r"
+  Event: 0
+  Choices:
+  - Response: '...'
+    SanityLowest: 0
+    SanityHighest: 100
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: 8520ee907c0210f43ab5398146a502d4, type: 2}

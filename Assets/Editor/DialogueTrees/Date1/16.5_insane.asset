@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
+  m_Name: 16.5_insane
+  m_EditorClassIdentifier: 
+  Name: Cthulhu
+  Dialogue: '"I do not think much of this form. But if it pleases you, then I''m glad."
+
+
+    The flesh on his face and tentacles tinges a darker shade of green.
+
+    (Is he blushing?)'
+  Event: 0
+  Choices:
+  - Response: '...'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: b9d0bf749aba72642b1923547be2c296, type: 2}

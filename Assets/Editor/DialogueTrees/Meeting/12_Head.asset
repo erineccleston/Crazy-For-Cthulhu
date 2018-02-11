@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
+  m_Name: 12_Head
+  m_EditorClassIdentifier: 
+  Name: Cthulhu
+  Dialogue: "\"A\u0358re\u0341 my\u0336 wo\u0362r\u035Fds\u035E re\u0338achin\u0322g
+    \u0362you?\"\nHis words echo in your head.\nYou head still throbs, but not quite
+    as badly."
+  Event: 0
+  Choices:
+  - Response: '"I CAN HEAR THE BLACK VOID OF ETERNITY!"'
+    SanityLowest: 0
+    SanityHighest: 100
+    SanityChange: -10
+    Next: {fileID: 11400000, guid: ed42e6faad213394ebbc7401dd7144e3, type: 2}
+  - Response: '"Testing... testing... 1, 2, 3."'
+    SanityLowest: 0
+    SanityHighest: 100
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: 3fd9ed980df7e4041a72a67bf4a5dc1b, type: 2}
+  - Response: Get out of my head!
+    SanityLowest: 0
+    SanityHighest: 100
+    SanityChange: 10
+    Next: {fileID: 11400000, guid: 3bd06d3130ba016439387e27f9741ed6, type: 2}
