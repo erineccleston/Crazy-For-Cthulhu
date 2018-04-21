@@ -48,7 +48,7 @@ public class SceneImplementorScript : MonoBehaviour
     public static void FullInsanityManager()
     {
         //GameOver.;
-        //GameOverInsane
+        
     }
 
     public static void FullSanityManager()
