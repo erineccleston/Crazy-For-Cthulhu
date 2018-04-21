@@ -19,4 +19,9 @@ public class ButtonScript : MonoBehaviour {
     {
         SceneManager.LoadScene("MainFinalScene", LoadSceneMode.Single);
     }
+
+    public void quitGame()
+    {
+        Application.Quit();
+    }
 }
