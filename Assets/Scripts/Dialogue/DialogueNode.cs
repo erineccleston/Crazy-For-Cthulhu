@@ -39,7 +39,7 @@ public enum GameEvents
     EndSexyRunwayPose,
     EndSadPose,
     EndBlushPose,
-
+    EndNeutralPose,
     EndIntro,
     EndMeeting,
     EndDate1,
