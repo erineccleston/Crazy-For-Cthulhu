@@ -9,14 +9,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 2_Cultist
+  m_Name: 7_intro
   m_EditorClassIdentifier: 
   Name: The Ritual Of Awakening
-  Dialogue: "Along the shoreline is an endless line of people in black hoods kneeling.\r"
-  Event: 2
+  Dialogue: "Clouds stir in the sky, releasing several consecutive lightning strikes
+    over the ocean.\r\nThe water along the shore recedes, leaving small sea creatures
+    stranded, gasping, eyes wide."
+  Event: 7
   Choices:
   - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 11400000, guid: eb6445cf297f39243b31b68f00128ce1, type: 2}
+    Next: {fileID: 11400000, guid: 0c884cd5a00b4f34baef2b3c6fb51fe6, type: 2}

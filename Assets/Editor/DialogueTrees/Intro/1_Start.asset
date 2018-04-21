@@ -13,11 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: The Ritual Of Awakening
   Dialogue: "A storm looms overhead, above a calm sea. It\u2019s quiet, as if no living
-    thing dares to invade this space. \r\nAlong the shoreline is an endless line of
-    people in black hoods kneeling.\r\nYou nudge a space between two people. They
-    don\u2019t notice you. They just keep staring out into the sea.\r\nA cultist steps
-    forward and begins chanting. \r"
-  Event: 0
+    thing dares to invade this space. \r"
+  Event: 1
   Choices:
   - Response: '[......]'
     SanityLowest: 0

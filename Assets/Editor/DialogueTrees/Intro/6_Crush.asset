@@ -11,9 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 6_Crush
   m_EditorClassIdentifier: 
-  Name: ???
-  Dialogue: It's giant hand engulfs you in a crushing grasp.
-  Event: 1
+  Name: Cultists and you
+  Dialogue: "\"That we might share the dream murmurings of the Axbim Vawajeza Naguz
+    in our own\r dreamings and of he who sleeps in the sunken city of R\u2019lyeh!\""
+  Event: 6
   Choices:
   - Response: You pass out.
     SanityLowest: 0

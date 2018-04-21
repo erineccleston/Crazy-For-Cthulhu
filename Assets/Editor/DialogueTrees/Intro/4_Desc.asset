@@ -11,12 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 4_Desc
   m_EditorClassIdentifier: 
-  Name: The Ritual of Awakening
-  Dialogue: "Clouds stir in the sky, releasing several consecutive lightning strikes
-    over the ocean.\r\nThe water along the shore recedes, leaving small sea creatures
-    stranded, gasping, eyes wide.\r\nWaves swell, then collapse in on themselves.\r\nFrom
-    the center of the chaos, an incomprehensible silhouette rises. \r"
-  Event: 0
+  Name: Cultist
+  Dialogue: "A cultist steps forward and begins chanting.\r\nCultist\r\n\"Open the
+    dream realms to our nightly wanderings\u2026\""
+  Event: 4
   Choices:
   - Response: '[......]'
     SanityLowest: 0

@@ -9,14 +9,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 2_Cultist
+  m_Name: 9_intro
   m_EditorClassIdentifier: 
   Name: The Ritual Of Awakening
-  Dialogue: "Along the shoreline is an endless line of people in black hoods kneeling.\r"
-  Event: 2
+  Dialogue: "From the center of the chaos, an incomprehensible silhouette raises.\r\n???
+    gestures to the shoreline, sending massive tidal waves.\r\nThey engulf you, pulling
+    you into the dark blue waters.\r\nYou sink, even as your limbs flail and fight
+    against the current. Water fills your vision, your\r mouth, your lungs.\r"
+  Event: 9
   Choices:
   - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 11400000, guid: eb6445cf297f39243b31b68f00128ce1, type: 2}
+    Next: {fileID: 11400000, guid: fcd4ac8bdb1fe3d42b72da5174b25021, type: 2}
