@@ -8,7 +8,8 @@ public class SceneImplementorScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        GameObject gameOverInsane = GameObject.Find("GameOverInsane");
+        GameObject gameOverSane = GameObject.Find("GameOverSane");
     }
     // Update is called once per frame
     void Update()
@@ -47,6 +48,7 @@ public class SceneImplementorScript : MonoBehaviour
     public static void FullInsanityManager()
     {
         //GameOver.;
+        //GameOverInsane
     }
 
     public static void FullSanityManager()

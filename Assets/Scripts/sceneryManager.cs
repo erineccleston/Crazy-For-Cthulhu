@@ -19,6 +19,7 @@ public class sceneryManager : MonoBehaviour
     {
         switch (gameEvent)
         {
+            //Prologue
             case GameEvents.EndPrologue1:
                 break;
 
@@ -49,6 +50,7 @@ public class sceneryManager : MonoBehaviour
             case GameEvents.EndPrologue10:
                 break;
 
+            //Main Events
             case GameEvents.EndIntro:
                 SceneImplementorScript.IntroManager();
                 break;
@@ -72,7 +74,10 @@ public class sceneryManager : MonoBehaviour
                 SceneImplementorScript.Date3Manager();
                 sanity_bar.dateStartSanity = sanity_bar.Sanity;
                 break;
+            //Animation Events
 
+
+            //Game over events
             case GameEvents.EndFullInsanity:
                 SceneImplementorScript.FullInsanityManager();
                 //write
