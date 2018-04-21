@@ -75,21 +75,18 @@ public class sceneryManager : MonoBehaviour
                 sanity_bar.dateStartSanity = sanity_bar.Sanity;
                 break;
             //Animation Events
-
+            case GameEvents.EndCookingPose:
+                SceneImplementorScript.CookingPoseManager();
+                break;
 
             //Game over events
             case GameEvents.EndFullInsanity:
                 SceneImplementorScript.FullInsanityManager();
-                //write
-                //bring up menu
-                //pause game
                 break;
 
             case GameEvents.EndFullSanity:
                 SceneImplementorScript.FullSanityManager();
-                //write
-                //bring up menu
-                //pause game
+               
                 break;
 
             //case GameEvents.EndNeutral;
