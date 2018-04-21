@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 39
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Cthulhu
   Dialogue: "He lifts your chin and leans in.\r\n\"Close your eyes.\""
   Event: 0
   Choices:
@@ -19,9 +19,9 @@ MonoBehaviour:
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 53864db6a1a7e964c9baeb87a194e9d8, type: 2}
   - Response: '[You get on your tip toes and kiss him first.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: fc525f62630c5314e807cf951df08074, type: 2}

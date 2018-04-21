@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Name: 38
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: "At long last, I have found my companion for eternity. How do you feel,
-    my love?\r\n\rHe looks into your eyes with a fiery intensity."
+  Dialogue: "\"At long last, I have found my companion for eternity. How do you feel,
+    my love?\r\"\n\rHe looks into your eyes with a fiery intensity."
   Event: 0
   Choices:
   - Response: "[I\u2019m glad to be by your side.]"
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: c9bc8f08544a08246a3d72eb18470b0b, type: 2}
   - Response: '[Kiss me, you fool!]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: c9bc8f08544a08246a3d72eb18470b0b, type: 2}
   - Response: '[I have dreamt of this day for so long.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: c9bc8f08544a08246a3d72eb18470b0b, type: 2}

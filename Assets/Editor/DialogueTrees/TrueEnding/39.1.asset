@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 39.1
   m_EditorClassIdentifier: 
-  Name: 
+  Name: True Love At Last
   Dialogue: "He kisses you.\r\nHis tentacles engulf your face.\r\nYou feel like you
     could asphyxiate at any moment.\r\nNothing could make you happier."
   Event: 0
   Choices:
-  - Response: 
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: e4198829082268d498f37464cbe69c47, type: 2}
