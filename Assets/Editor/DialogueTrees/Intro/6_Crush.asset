@@ -18,6 +18,6 @@ MonoBehaviour:
   Choices:
   - Response: You pass out.
     SanityLowest: 0
-    SanityHighest: 100
+    SanityHighest: 0
     SanityChange: 0
     Next: {fileID: 11400000, guid: 619380b08506b4948b757ee8e04453f4, type: 2}
