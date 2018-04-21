@@ -14,4 +14,9 @@ MonoBehaviour:
   Name: 
   Dialogue: You foam at the mouth.
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '..........'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: a0eeda6d2a33db14b80986bd71afb70d, type: 2}

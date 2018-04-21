@@ -14,4 +14,9 @@ MonoBehaviour:
   Name: 
   Dialogue: He places you onto the altar and lays down next to you, falling asleep.
   Event: 5
-  Choices: []
+  Choices:
+  - Response: .   .   .   .
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 0}

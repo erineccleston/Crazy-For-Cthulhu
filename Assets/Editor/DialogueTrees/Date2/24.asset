@@ -20,14 +20,14 @@ MonoBehaviour:
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: b04cb514f45a56c48a93745b6811cfa9, type: 2}
   - Response: '[What the hell is that?]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 10
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: daf3cd470a0f56242ac5a513feb9fc07, type: 2}
   - Response: '[Ooh! I love pancakes!]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: -10
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 38eb758b8fa35cb45a84af9f25bd656c, type: 2}

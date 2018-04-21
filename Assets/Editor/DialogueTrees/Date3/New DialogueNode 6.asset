@@ -9,14 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 21
+  m_Name: New DialogueNode 6
   m_EditorClassIdentifier: 
   Name: 
-  Dialogue: "You flail in midair.\r\nThe height is impossible.\r\n"
+  Dialogue: 
   Event: 0
-  Choices:
-  - Response: '...'
-    SanityLowest: 0
-    SanityHighest: 0
-    SanityChange: 0
-    Next: {fileID: 11400000, guid: 55e3546a34b9eac4ca370e2551564723, type: 2}
+  Choices: []

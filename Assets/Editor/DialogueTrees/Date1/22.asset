@@ -23,14 +23,14 @@ MonoBehaviour:
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 6dcb47cb3680e824082a3f0280ec532e, type: 2}
   - Response: '[I need to find a way out of here.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 10
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 6dcb47cb3680e824082a3f0280ec532e, type: 2}
   - Response: '[What a dark, brooding, dreamboat.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: -10
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 6dcb47cb3680e824082a3f0280ec532e, type: 2}

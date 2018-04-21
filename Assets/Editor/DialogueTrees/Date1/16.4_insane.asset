@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 16.4_insane
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Cthulhu
   Dialogue: He seems baffled at this confession.
   Event: 0
   Choices:

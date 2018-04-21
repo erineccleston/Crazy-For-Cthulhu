@@ -20,14 +20,14 @@ MonoBehaviour:
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: -10
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 3c15ed7532dc75242bea6bbbe0e93c97, type: 2}
   - Response: '[Purse your lips closed with all your might.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 10
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 3c15ed7532dc75242bea6bbbe0e93c97, type: 2}
   - Response: '[Hesitantly open your mouth.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: 3c15ed7532dc75242bea6bbbe0e93c97, type: 2}

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 16.6_sane
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Cthulhu
   Dialogue: 'He looks you over and flails his tentacles with a gargling laugh. '
   Event: 0
   Choices:

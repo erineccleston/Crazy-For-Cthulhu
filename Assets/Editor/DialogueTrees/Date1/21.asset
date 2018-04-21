@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 21
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: That is nothing for you to concern yourself with.
+  Dialogue: '"That is nothing for you to concern yourself with."'
   Event: 0
   Choices:
   - Response: '...'

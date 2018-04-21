@@ -14,4 +14,9 @@ MonoBehaviour:
   Name: 
   Dialogue: Those pancakes were amazing.
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '..........'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: acac71d9bcc24eb4897e1a8ca2092c3d, type: 2}

@@ -14,4 +14,9 @@ MonoBehaviour:
   Name: 
   Dialogue: The last of your consciousness leaves your body.
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '..........'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: 50cb825719f46434ba6ff3d560787d9d, type: 2}

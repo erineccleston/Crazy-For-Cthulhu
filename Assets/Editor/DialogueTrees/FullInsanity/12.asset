@@ -14,4 +14,9 @@ MonoBehaviour:
   Name: 
   Dialogue: Cthulhu weeps.
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '..........'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: 98c9ae110028d1142931cbfc186306b6, type: 2}

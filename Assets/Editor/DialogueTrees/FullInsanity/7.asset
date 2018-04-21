@@ -15,4 +15,9 @@ MonoBehaviour:
   Dialogue: You are an empty form that thinks only of loving Cthulhu in all of his
     glory.
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '..........'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: 60cd0ffcb43a746498c4cc77ee755971, type: 2}
