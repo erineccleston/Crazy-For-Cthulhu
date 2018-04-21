@@ -14,13 +14,12 @@ MonoBehaviour:
   Name: Cthulhu
   Dialogue: '"I do not think much of this form. But if it pleases you, then I''m glad."
 
-
     The flesh on his face and tentacles tinges a darker shade of green.
 
     (Is he blushing?)'
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

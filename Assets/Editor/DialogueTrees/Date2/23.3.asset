@@ -11,12 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 23.3
   m_EditorClassIdentifier: 
-  Name: 
+  Name: A pancake breakfast with a God?
   Dialogue: "As you make the painful motion to roll onto your side, you catch the
-    most incredible sight.\r\nCthulhu in\u2026an apron?\r\n"
+    most incredible sight.\r\nCthulhu in\u2026an apron?\r"
   Event: 0
   Choices:
-  - Response: '.........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: A pancake breakfast with a God?
   Dialogue: "You wake up to a smell that is both familiar and repulsively alien.\r\nYour
-    stomach makes a sickening growl.\r\n"
+    stomach makes a sickening growl.\r"
   Event: 0
   Choices:
-  - Response: '.........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Insanity
   Dialogue: "Your mind doesn\u2019t control your body like it used to."
   Event: 0
   Choices:
-  - Response: '..........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

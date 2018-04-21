@@ -18,7 +18,7 @@ MonoBehaviour:
     comprehend. \nYou oblige him and sit down."
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

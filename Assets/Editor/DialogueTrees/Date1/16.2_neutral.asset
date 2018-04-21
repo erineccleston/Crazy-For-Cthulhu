@@ -19,7 +19,7 @@ MonoBehaviour:
     He looks down to you, then quickly turns away'
   Event: 0
   Choices:
-  - Response: '....'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

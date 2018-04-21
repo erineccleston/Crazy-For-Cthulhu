@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: 6
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: "You weren\u2019t thinking of leaving, were you?\r\n\r\nHe pulls himself
+  Dialogue: "\"You weren\u2019t thinking of leaving, were you?\r\"\nHe pulls himself
     up to his full height, towering over you.\r\n"
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

@@ -29,7 +29,6 @@ public enum GameEvents
     EndMeeting,
     EndDate1,
     EndDate2,
-    EndDate3,
     EndFullInsanity,
     EndFullSanity
 }

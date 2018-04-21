@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: ab6ef7a3b32234c478b80660474035b7
+timeCreated: 1518253955
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Stair2:ZBrush_defualt_group1_MeshPart0
+    100002: Stair2:ZBrush_defualt_group1_MeshPart1
+    100004: Stair2:ZBrush_defualt_group1_MeshPart10
+    100006: Stair2:ZBrush_defualt_group1_MeshPart11
+    100008: Stair2:ZBrush_defualt_group1_MeshPart12
+    100010: Stair2:ZBrush_defualt_group1_MeshPart2
+    100012: Stair2:ZBrush_defualt_group1_MeshPart3
+    100014: Stair2:ZBrush_defualt_group1_MeshPart4
+    100016: Stair2:ZBrush_defualt_group1_MeshPart5
+    100018: Stair2:ZBrush_defualt_group1_MeshPart6
+    100020: Stair2:ZBrush_defualt_group1_MeshPart7
+    100022: Stair2:ZBrush_defualt_group1_MeshPart8
+    100024: Stair2:ZBrush_defualt_group1_MeshPart9
+    100026: //RootNode
+    400000: Stair2:ZBrush_defualt_group1_MeshPart0
+    400002: Stair2:ZBrush_defualt_group1_MeshPart1
+    400004: Stair2:ZBrush_defualt_group1_MeshPart10
+    400006: Stair2:ZBrush_defualt_group1_MeshPart11
+    400008: Stair2:ZBrush_defualt_group1_MeshPart12
+    400010: Stair2:ZBrush_defualt_group1_MeshPart2
+    400012: Stair2:ZBrush_defualt_group1_MeshPart3
+    400014: Stair2:ZBrush_defualt_group1_MeshPart4
+    400016: Stair2:ZBrush_defualt_group1_MeshPart5
+    400018: Stair2:ZBrush_defualt_group1_MeshPart6
+    400020: Stair2:ZBrush_defualt_group1_MeshPart7
+    400022: Stair2:ZBrush_defualt_group1_MeshPart8
+    400024: Stair2:ZBrush_defualt_group1_MeshPart9
+    400026: //RootNode
+    2300000: Stair2:ZBrush_defualt_group1_MeshPart0
+    2300002: Stair2:ZBrush_defualt_group1_MeshPart1
+    2300004: Stair2:ZBrush_defualt_group1_MeshPart10
+    2300006: Stair2:ZBrush_defualt_group1_MeshPart11
+    2300008: Stair2:ZBrush_defualt_group1_MeshPart12
+    2300010: Stair2:ZBrush_defualt_group1_MeshPart2
+    2300012: Stair2:ZBrush_defualt_group1_MeshPart3
+    2300014: Stair2:ZBrush_defualt_group1_MeshPart4
+    2300016: Stair2:ZBrush_defualt_group1_MeshPart5
+    2300018: Stair2:ZBrush_defualt_group1_MeshPart6
+    2300020: Stair2:ZBrush_defualt_group1_MeshPart7
+    2300022: Stair2:ZBrush_defualt_group1_MeshPart8
+    2300024: Stair2:ZBrush_defualt_group1_MeshPart9
+    3300000: Stair2:ZBrush_defualt_group1_MeshPart0
+    3300002: Stair2:ZBrush_defualt_group1_MeshPart1
+    3300004: Stair2:ZBrush_defualt_group1_MeshPart10
+    3300006: Stair2:ZBrush_defualt_group1_MeshPart11
+    3300008: Stair2:ZBrush_defualt_group1_MeshPart12
+    3300010: Stair2:ZBrush_defualt_group1_MeshPart2
+    3300012: Stair2:ZBrush_defualt_group1_MeshPart3
+    3300014: Stair2:ZBrush_defualt_group1_MeshPart4
+    3300016: Stair2:ZBrush_defualt_group1_MeshPart5
+    3300018: Stair2:ZBrush_defualt_group1_MeshPart6
+    3300020: Stair2:ZBrush_defualt_group1_MeshPart7
+    3300022: Stair2:ZBrush_defualt_group1_MeshPart8
+    3300024: Stair2:ZBrush_defualt_group1_MeshPart9
+    4300000: Stair2:ZBrush_defualt_group1_MeshPart0
+    4300002: Stair2:ZBrush_defualt_group1_MeshPart1
+    4300004: Stair2:ZBrush_defualt_group1_MeshPart2
+    4300006: Stair2:ZBrush_defualt_group1_MeshPart3
+    4300008: Stair2:ZBrush_defualt_group1_MeshPart4
+    4300010: Stair2:ZBrush_defualt_group1_MeshPart5
+    4300012: Stair2:ZBrush_defualt_group1_MeshPart6
+    4300014: Stair2:ZBrush_defualt_group1_MeshPart7
+    4300016: Stair2:ZBrush_defualt_group1_MeshPart8
+    4300018: Stair2:ZBrush_defualt_group1_MeshPart9
+    4300020: Stair2:ZBrush_defualt_group1_MeshPart10
+    4300022: Stair2:ZBrush_defualt_group1_MeshPart11
+    4300024: Stair2:ZBrush_defualt_group1_MeshPart12
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alienGrass74Shader
+    second: {fileID: 2100000, guid: a812b5e4101cc2842ae458fe7b48cf0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alienGrass75Shader
+    second: {fileID: 2100000, guid: e186df68b4a668245b9680ef02673102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alienGrass76Shader
+    second: {fileID: 2100000, guid: 831c82493a0bcac4dbaebcc98603662a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alienGrass77Shader
+    second: {fileID: 2100000, guid: 41252888d665b124689a2da9bd0b5197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alienGrass78Shader
+    second: {fileID: 2100000, guid: f86516708c9b85e4fb3fbb2b65a2097b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alienGrass79Shader
+    second: {fileID: 2100000, guid: 9424ba331b3d6174a9a346720fe1fb48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alienGrass80Shader
+    second: {fileID: 2100000, guid: fc625072acc0340488d67322423c0c76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cortinarius7FlowerShader
+    second: {fileID: 2100000, guid: 8f94d92e5c30a2c4c80ba994fcade900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cortinarius7Shader
+    second: {fileID: 2100000, guid: a618f1dcb92a9d1408a0953e3c524b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cortinarius8FlowerShader
+    second: {fileID: 2100000, guid: 84c90fd116ee086438d27a44bdd53e93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cortinarius8Shader
+    second: {fileID: 2100000, guid: ef6cd42ba1dd36d4db18cd09d41955de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cortinarius9FlowerShader
+    second: {fileID: 2100000, guid: 92078788e15e1bb4c9367cb395f17642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cortinarius9Shader
+    second: {fileID: 2100000, guid: f22df18c99e96c24aa9b2e57df04bd67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: a4bb0c3071881024c838a9ea203af01b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen24Shader
+    second: {fileID: 2100000, guid: fa2e62a1e4382c04697cea80292fddf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen26Shader
+    second: {fileID: 2100000, guid: a0e44a4a2c8ed824cba019ee8d652b88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen27Shader
+    second: {fileID: 2100000, guid: a7fcb004fee73824e90ffd22774283e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen28Shader
+    second: {fileID: 2100000, guid: 90d9dd2c0f7c0f6458c73421d2f6e35c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen29Shader
+    second: {fileID: 2100000, guid: d76c3748a9320fd4190513f533d8a4d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen30Shader
+    second: {fileID: 2100000, guid: 9a768ce5df266c841bdd66b57c21f438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen31Shader
+    second: {fileID: 2100000, guid: 9db2853b5f3717c469f37cd0d37839e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen32Shader
+    second: {fileID: 2100000, guid: d7397562194cf9844a3b7a090cdc1a4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen33Shader
+    second: {fileID: 2100000, guid: 909c58000e4f2b947801cb32f18e06fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen34Shader
+    second: {fileID: 2100000, guid: 22f60327ff6be0a4497300a5e1156158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen35Shader
+    second: {fileID: 2100000, guid: 7a444e1d8587a6143bc94cd5ef234b76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen36Shader
+    second: {fileID: 2100000, guid: 8b4fc882289df7541b7421daffd92991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen37Shader
+    second: {fileID: 2100000, guid: d047163e319a16d45b1edff3c9f365cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen38Shader
+    second: {fileID: 2100000, guid: ece8e95929db734438626f8108dc72c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lichen39Shader
+    second: {fileID: 2100000, guid: c73fc1f700a95604db51af8d276dd5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap11FlowerShader
+    second: {fileID: 2100000, guid: 8a397611e0f4e8140807f3e13826debe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap11Shader
+    second: {fileID: 2100000, guid: f38daf586267dfc4ba35d4108f2a604c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap12FlowerShader
+    second: {fileID: 2100000, guid: cd5006790cab7dc469d02bbbe181980e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap12Shader
+    second: {fileID: 2100000, guid: a1cf19a7bd316da4abcb669876640fc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap13FlowerShader
+    second: {fileID: 2100000, guid: a65e7b20ad6719e489852983b810bee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap13Shader
+    second: {fileID: 2100000, guid: c8ab82c1b8a664447b544e7e46e54b07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap14FlowerShader
+    second: {fileID: 2100000, guid: 3e871a5b0e24df249a3bb50bbe48d649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap14Shader
+    second: {fileID: 2100000, guid: 886923eab28e00248b705bb99a402145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap15FlowerShader
+    second: {fileID: 2100000, guid: 3228b961b551d6a478aa5ce9177f4786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap15Shader
+    second: {fileID: 2100000, guid: 5db903de83548014480bbe8d8416c999, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap16FlowerShader
+    second: {fileID: 2100000, guid: e62b522842e23bd498e41c85890c3592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap16Shader
+    second: {fileID: 2100000, guid: e21fefff5bd8d1944a40d584d2562b83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap17FlowerShader
+    second: {fileID: 2100000, guid: 196d7d5036db9ee40b13eee78e41f168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap17Shader
+    second: {fileID: 2100000, guid: 3582d2cbf86a3804f95b0a2d1f506f46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap18FlowerShader
+    second: {fileID: 2100000, guid: 4880a91f3ad5a3e4e9f5ace227b952c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap18Shader
+    second: {fileID: 2100000, guid: e9110d5d15dd09a4bbd92620e8d37589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap19FlowerShader
+    second: {fileID: 2100000, guid: e0e8fa17a0a07b5439350853153fd11f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap19Shader
+    second: {fileID: 2100000, guid: f049933879361a04881deba892b99f35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap20FlowerShader
+    second: {fileID: 2100000, guid: 73ff25dff71e1d3438c115d00b44d22c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap20Shader
+    second: {fileID: 2100000, guid: 711831e6467279245bd195cefca77e1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap21FlowerShader
+    second: {fileID: 2100000, guid: fc90a8f9dea7845408dcf713305299c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap21Shader
+    second: {fileID: 2100000, guid: 2bb00a133ebf58d42b4968e4da421cef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap8FlowerShader
+    second: {fileID: 2100000, guid: bef7fc2b9df4ea346bda259750baf423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap8Shader
+    second: {fileID: 2100000, guid: 711a07b8b411c2b47a6be4cb19ea6419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap9FlowerShader
+    second: {fileID: 2100000, guid: b92217a06b2b289408b8cac5864864a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micaCap9Shader
+    second: {fileID: 2100000, guid: dfe9a7039aa984944a29749c116ad9cc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

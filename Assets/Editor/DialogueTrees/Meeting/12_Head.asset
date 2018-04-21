@@ -27,7 +27,7 @@ MonoBehaviour:
     SanityHighest: 100
     SanityChange: 0
     Next: {fileID: 11400000, guid: 3fd9ed980df7e4041a72a67bf4a5dc1b, type: 2}
-  - Response: Get out of my head!
+  - Response: '"Get out of my head!"'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 10

@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Sanity
   Dialogue: You go into a full sprint toward the stairs.
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

@@ -19,12 +19,12 @@ MonoBehaviour:
     approaches you. "
   Event: 0
   Choices:
-  - Response: You try to get away.
+  - Response: '[You try to get away.]'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 10
     Next: {fileID: 11400000, guid: 07cf3cbc81420954a8240cb01c9d6fdb, type: 2}
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0

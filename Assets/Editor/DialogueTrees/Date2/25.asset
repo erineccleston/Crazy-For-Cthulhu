@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 25
   m_EditorClassIdentifier: 
-  Name: 
-  Dialogue: "He slices off a piece of pancake? with the obsidian dagger. He holds
-    it close to your mouth.\r\nIt smells putrid.\r\n"
+  Name: A pancake breakfast with a God?
+  Dialogue: "He slices off a piece of \"pancake\" with the obsidian dagger. He holds
+    it close to your mouth.\r\nIt smells putrid.\r"
   Event: 0
   Choices:
   - Response: '[Eagerly open your mouth.]'

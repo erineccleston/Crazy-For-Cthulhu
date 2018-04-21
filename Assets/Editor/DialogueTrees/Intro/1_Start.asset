@@ -19,7 +19,7 @@ MonoBehaviour:
     forward and begins chanting. \r"
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0

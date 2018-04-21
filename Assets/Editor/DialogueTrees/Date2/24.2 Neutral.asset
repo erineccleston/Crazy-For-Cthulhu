@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: 24.2 Neutral
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: "I have received many offerings of the cooking books.\r\n\r\nHe holds
-    up a well-worn copy of Martha Stewart: Collected Recipes for Every Day. \r\n"
+  Dialogue: "\"I have received many offerings of the cooking books.\r\"\n\rHe holds
+    up a well-worn copy of Martha Stewart: Collected Recipes for Every Day. \r"
   Event: 0
   Choices:
-  - Response: '.........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

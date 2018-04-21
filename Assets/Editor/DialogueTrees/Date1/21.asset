@@ -15,7 +15,7 @@ MonoBehaviour:
   Dialogue: '"That is nothing for you to concern yourself with."'
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0

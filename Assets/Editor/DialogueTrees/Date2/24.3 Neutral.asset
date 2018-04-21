@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: 24.3 Neutral
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: Though I am unfamiliar with many of these ingredients
+  Dialogue: '"Though I am unfamiliar with many of these ingredients"'
   Event: 0
   Choices:
-  - Response: '..........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

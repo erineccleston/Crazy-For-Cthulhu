@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: "But\u2026I\u2019ve fallen for you. "
+  Dialogue: "\"But\u2026I\u2019ve fallen for you.\""
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

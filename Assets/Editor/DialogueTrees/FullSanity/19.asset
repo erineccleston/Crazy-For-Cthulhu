@@ -15,7 +15,7 @@ MonoBehaviour:
   Dialogue: "I won\u2019t let you leave me!"
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

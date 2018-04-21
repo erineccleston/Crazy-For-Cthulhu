@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: 19
   m_EditorClassIdentifier: 
   Name: You
-  Dialogue: '[What do you mean?]'
+  Dialogue: '"What do you mean?"'
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

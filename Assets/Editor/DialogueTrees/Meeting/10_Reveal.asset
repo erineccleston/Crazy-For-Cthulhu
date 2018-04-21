@@ -19,7 +19,7 @@ MonoBehaviour:
     His eyes stare at you almost... tenderly?'
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0

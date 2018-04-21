@@ -11,12 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 23.4
   m_EditorClassIdentifier: 
-  Name: 
+  Name: A pancake breakfast with a God?
   Dialogue: "He sees that you\u2019re awake and brings over a plate of something that
     vaguely resembles pancakes. "
   Event: 0
   Choices:
-  - Response: '...........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

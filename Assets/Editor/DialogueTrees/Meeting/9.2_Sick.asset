@@ -19,7 +19,7 @@ MonoBehaviour:
     \u0334y\u0315a\u0338\u035F.\""
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0

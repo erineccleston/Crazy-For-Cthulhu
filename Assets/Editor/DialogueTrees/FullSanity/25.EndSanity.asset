@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: 25.EndSanity
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: "You broke my heart\u2026"
+  Dialogue: "\"You broke my heart\u2026\""
   Event: 6
   Choices:
-  - Response: '.... ... .. .'
+  - Response: '[.... ... .. .]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

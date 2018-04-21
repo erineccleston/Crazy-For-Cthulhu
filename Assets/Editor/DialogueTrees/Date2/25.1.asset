@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 25.1
   m_EditorClassIdentifier: 
-  Name: 
+  Name: A pancake breakfast with a God?
   Dialogue: "Cthulhu shoves it into your mouth.\r\nYou gag violently as the most unfathomable
     flavors fill your taste buds. \r\nYour vision goes white. \r\nYou\u2019re pretty
-    sure you stop breathing.\r\n"
+    sure you stop breathing.\r"
   Event: 4
   Choices:
-  - Response: '..........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

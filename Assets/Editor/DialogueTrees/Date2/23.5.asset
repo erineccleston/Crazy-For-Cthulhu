@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 23.5
   m_EditorClassIdentifier: 
-  Name: 
+  Name: A pancake breakfast with a God?
   Dialogue: "There\u2019s a menacing dagger sticking out from it. It looks like it\u2019s
     obsidian\u2026and crusted with something that probably doesn\u2019t belong on
     an eating utensil. "
   Event: 0
   Choices:
-  - Response: '........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

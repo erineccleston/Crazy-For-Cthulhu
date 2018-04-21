@@ -16,7 +16,7 @@ MonoBehaviour:
     \u0489wo\u0358nder\u0360ful?\u0358\"\n"
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0

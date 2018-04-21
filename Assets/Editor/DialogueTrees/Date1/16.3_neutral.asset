@@ -14,13 +14,12 @@ MonoBehaviour:
   Name: Cthulhu
   Dialogue: '"Never mind."
 
-
     There is just a hint of dark green in his cheeks
 
     (Is that a blush?)'
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 24
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: "From what I understand, this is a customary breakfast item.\r\n\r\nHe
-    stares at you expectantly.\r\n"
+  Dialogue: "\"From what I understand, this is a customary breakfast item.\r\"\nHe
+    stares at you expectantly.\r"
   Event: 0
   Choices:
   - Response: '[How do you know about pancakes?] '

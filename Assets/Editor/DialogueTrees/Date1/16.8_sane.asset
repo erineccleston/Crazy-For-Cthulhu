@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: 16.8_sane
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: "\"Having your mind torn asunder is a natural response from a lower being.\r\"\n\r\nHow
+  Dialogue: "\"Having your mind torn asunder is a natural response from a lower being.\r\"\n\rHow
     are you supposed to take that?\r\nHe goes back to staring at the sky.\r"
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

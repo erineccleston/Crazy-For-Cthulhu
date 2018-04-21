@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Name: 24.5 Sane
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: 'Do they not resemble cakes made in a pan?
-
+  Dialogue: '"Do they not resemble cakes made in a pan?"
 
     Cthulhu stares at the ground sheepishly.'
   Event: 0
   Choices:
-  - Response: '...........'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0

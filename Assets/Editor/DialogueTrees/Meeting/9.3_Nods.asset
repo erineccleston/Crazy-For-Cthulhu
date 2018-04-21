@@ -15,7 +15,7 @@ MonoBehaviour:
   Dialogue: It nods. It seems the tone of your praise won the creature over a little.
   Event: 0
   Choices:
-  - Response: '...'
+  - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 100
     SanityChange: 0
