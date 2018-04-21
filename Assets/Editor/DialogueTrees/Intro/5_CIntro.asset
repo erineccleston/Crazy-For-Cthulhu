@@ -17,16 +17,16 @@ MonoBehaviour:
   Choices:
   - Response: '[You try to get away.]'
     SanityLowest: 0
-    SanityHighest: 100
+    SanityHighest: 0
     SanityChange: 10
     Next: {fileID: 11400000, guid: 07cf3cbc81420954a8240cb01c9d6fdb, type: 2}
   - Response: '[......]'
     SanityLowest: 0
-    SanityHighest: 100
+    SanityHighest: 0
     SanityChange: 0
     Next: {fileID: 11400000, guid: 07cf3cbc81420954a8240cb01c9d6fdb, type: 2}
   - Response: You reach out for the figure.
     SanityLowest: 0
-    SanityHighest: 100
+    SanityHighest: 0
     SanityChange: -10
     Next: {fileID: 11400000, guid: 07cf3cbc81420954a8240cb01c9d6fdb, type: 2}

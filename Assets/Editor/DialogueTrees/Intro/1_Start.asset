@@ -18,6 +18,6 @@ MonoBehaviour:
   Choices:
   - Response: '[......]'
     SanityLowest: 0
-    SanityHighest: 100
+    SanityHighest: 0
     SanityChange: 0
     Next: {fileID: 11400000, guid: 9d6296288947f88408d507c4298d58e2, type: 2}
