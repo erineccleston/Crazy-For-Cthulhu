@@ -7,6 +7,7 @@ public class sanity_bar : MonoBehaviour
 {
 
     public static float Sanity = 50;
+    public static float dateStartSanity;
 
     // Use this for initialization
     void Start()
