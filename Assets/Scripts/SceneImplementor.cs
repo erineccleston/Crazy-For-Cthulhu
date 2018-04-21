@@ -7,10 +7,25 @@ public class SceneImplementorScript : MonoBehaviour
     static GameObject GameOverInsane;
     static GameObject GameOverSane;
     static GameObject Cthullu_Flipping_Off;
+    
+    //static GameObject introSequence1 = GameObject.Find("introSequence1");
+    //static GameObject introSequence2 = GameObject.Find("introSequence2");
+    //static GameObject introSequence3 = GameObject.Find("introSequence3");
+    //static GameObject introSequence4 = GameObject.Find("introSequence4");
+    //static GameObject introSequence5 = GameObject.Find("introSequence5");
+    //static GameObject introSequence6 = GameObject.Find("introSequence6");
+    //static GameObject introSequence7 = GameObject.Find("introSequence7");
+    //static GameObject introSequence8 = GameObject.Find("introSequence8");
+    //static GameObject introSequence9 = GameObject.Find("introSequence9");
+    //static GameObject introSequenceParent = GameObject.Find("introSequenceParent");
 
     // Use this for initialization
     void Start()
     {
+        GameOverInsane = GameObject.Find("GameOverInsane");
+        GameOverSane = GameObject.Find("GameOverSane");
+        Cthullu_Flipping_Off = GameObject.Find("Cthullu_Flipping_Off");
+
         //set all objects to toggle as false then
         //selectively change later
         GameOverInsane.SetActive(false);

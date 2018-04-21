@@ -16,7 +16,6 @@ public class sceneryManager : MonoBehaviour
     public SceneImplementorScript FullInsanityManager;
     public SceneImplementorScript FullSanityManager;
 
-    static GameObject introSequenceParent;
     static GameObject introSequence1;
     static GameObject introSequence2;
     static GameObject introSequence3;
@@ -26,8 +25,21 @@ public class sceneryManager : MonoBehaviour
     static GameObject introSequence7;
     static GameObject introSequence8;
     static GameObject introSequence9;
-    static GameObject introSequence10;
+    static GameObject introSequenceParent;
 
+    private void Awake()
+    {
+        introSequence1 = GameObject.Find("introSequence1");
+        introSequence2 = GameObject.Find("introSequence2");
+        introSequence3 = GameObject.Find("introSequence3");
+        introSequence4 = GameObject.Find("introSequence4");
+        introSequence5 = GameObject.Find("introSequence5");
+        introSequence6 = GameObject.Find("introSequence6");
+        introSequence7 = GameObject.Find("introSequence7");
+        introSequence8 = GameObject.Find("introSequence8");
+        introSequence9 = GameObject.Find("introSequence9");
+        introSequenceParent = GameObject.Find("introSequenceParent");
+    }
     public void EventHappened(GameEvents gameEvent)
     {
         switch (gameEvent)
@@ -152,12 +164,12 @@ public class sceneryManager : MonoBehaviour
                 introSequence7.SetActive(false);
                 introSequence8.SetActive(false);
                 introSequence9.SetActive(false);
-                introSequence10.SetActive(true);
+                introSequenceParent.SetActive(true);
                 break;
 
             //Main Events
             case GameEvents.EndIntro:
-                introSequenceParent.SetActive(false);
+                
                 SceneImplementorScript.IntroManager();
                 break;
 
