@@ -35,6 +35,11 @@ public enum GameEvents
     EndPrologue8,
     EndPrologue9,
     EndPrologue10,
+    EndCookingPose,
+    EndSexyRunwayPose,
+    EndSadPose,
+    EndBlushPose,
+
     EndIntro,
     EndMeeting,
     EndDate1,
