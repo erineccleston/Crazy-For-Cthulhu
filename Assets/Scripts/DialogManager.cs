@@ -30,7 +30,6 @@ public class DialogManager : MonoBehaviour {
         opt1 = GameObject.Find("option1");
         opt2 = GameObject.Find("option2");
         opt3 = GameObject.Find("option3");
-        opt4 = GameObject.Find("option4");
 
         CurrentNode = StartNode;
         beginConversation();
@@ -47,7 +46,6 @@ public class DialogManager : MonoBehaviour {
         opt1.SetActive(false);
         opt2.SetActive(false);
         opt3.SetActive(false);
-        opt4.SetActive(false);
 
         dateName.GetComponent<Text>().text = CurrentNode.Name;
         string[] lines = CurrentNode.Dialogue.Split('\n');

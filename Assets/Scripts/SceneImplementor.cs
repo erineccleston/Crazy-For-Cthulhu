@@ -21,7 +21,7 @@ public class SceneImplementorScript : MonoBehaviour
     //implemented here to keep things tidy
     public static void IntroManager()
     {
-
+        
     }
 
     public static void MeetingManager()
@@ -46,7 +46,7 @@ public class SceneImplementorScript : MonoBehaviour
 
     public static void FullInsanityManager()
     {
-
+        //GameOver.;
     }
 
     public static void FullSanityManager()

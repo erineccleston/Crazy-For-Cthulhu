@@ -21,11 +21,34 @@ public class sceneryManager : MonoBehaviour
         {
             case GameEvents.EndPrologue1:
                 break;
+
             case GameEvents.EndPrologue2:
                 break;
+
             case GameEvents.EndPrologue3:
                 break;
-            
+
+            case GameEvents.EndPrologue4:
+                break;
+
+            case GameEvents.EndPrologue5:
+                break;
+
+            case GameEvents.EndPrologue6:
+                break;
+
+            case GameEvents.EndPrologue7:
+                break;
+
+            case GameEvents.EndPrologue8:
+                break;
+
+            case GameEvents.EndPrologue9:
+                break;
+
+            case GameEvents.EndPrologue10:
+                break;
+
             case GameEvents.EndIntro:
                 SceneImplementorScript.IntroManager();
                 break;
