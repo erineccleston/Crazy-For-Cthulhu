@@ -11,7 +11,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 29
   m_EditorClassIdentifier: 
-  Name: 
-  Dialogue: 
+  Name: Fancy Date with Dapper Cthulhu
+  Dialogue: "He just completely ignored you\u2026what a dick."
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '[Where are we going?]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: 662cab88c2a21e940950b42d390a1bbd, type: 2}
+  - Response: "[I feel sick as hell. I\u2019m not going.]"
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 10
+    Next: {fileID: 11400000, guid: 68abfc028e69a734a92a75de7f8c9ce2, type: 2}
+  - Response: '[I could go for another round of paNCAKES!]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: -10
+    Next: {fileID: 11400000, guid: 534e895ef04f034409301f3e4e218e5d, type: 2}

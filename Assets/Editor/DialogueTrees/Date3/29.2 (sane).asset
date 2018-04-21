@@ -9,9 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: New DialogueNode 6
+  m_Name: 29.2 (sane)
   m_EditorClassIdentifier: 
-  Name: 
-  Dialogue: 
+  Name: Cthulhu
+  Dialogue: "He bends down, looking visibly upset.\r\n\"Do you truly not feel like
+    going with me?\"\nYou feel an impending sense of dread from his tone."
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '[......]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 0}

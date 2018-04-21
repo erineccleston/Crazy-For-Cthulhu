@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  Name: Insanity
+  Name: One Should Never Go Full Insanity
   Dialogue: Those pancakes were amazing.
   Event: 0
   Choices:

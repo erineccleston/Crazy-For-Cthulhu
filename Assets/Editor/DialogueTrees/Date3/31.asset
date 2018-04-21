@@ -9,18 +9,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 26
+  m_Name: 31
   m_EditorClassIdentifier: 
-  Name: Fancy Date with Dapper Cthulhu
-  Dialogue: "You awake from your unpleasant food stupor.\r\nYou\u2019re in an outfit
-    that is dated\u2026like 1920s formal.\r\nIt\u2019s a little dusty, but still looks
-    pretty nice.\r\nYou roll off of the sacrificial altar.\r\nEvery movement fills
-    you with a profound nausea.\r\nCthulhu approaches you, wearing a top hat and a
-    ridiculously large bowtie."
+  Name: Cultist
+  Dialogue: "The cultist leader is bound and gagged on the table. Their eyes are filled
+    with terror.\r\n\r\"Please, show me mercy!\r\"\nThe cultist leader recognizes
+    you.\r\r\n\"Help me!!\""
   Event: 0
   Choices:
   - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 0}
+    Next: {fileID: 11400000, guid: e49c046b34d354d48a28008e122f5684, type: 2}

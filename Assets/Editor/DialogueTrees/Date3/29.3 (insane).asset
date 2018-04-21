@@ -9,9 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: New DialogueNode 7
+  m_Name: 29.3 (insane)
   m_EditorClassIdentifier: 
-  Name: 
-  Dialogue: 
+  Name: 'Cthulhu '
+  Dialogue: "He hoists you into his arms.\r\n\"There will be other days for pancakes,
+    my darling!\""
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '[......]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 0}

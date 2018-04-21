@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  Name: Insanity
+  Name: One Should Never Go Full Insanity
   Dialogue: Everything looks shiny and wonderful.
   Event: 0
   Choices:

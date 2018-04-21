@@ -9,14 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 5
+  m_Name: 37
   m_EditorClassIdentifier: 
-  Name: One Should Never Go Full Insanity
-  Dialogue: Cthulhu cradles you lovingly.
+  Name: 
+  Dialogue: 
   Event: 0
-  Choices:
-  - Response: '[......]'
-    SanityLowest: 0
-    SanityHighest: 0
-    SanityChange: 0
-    Next: {fileID: 11400000, guid: 852b7ab6eaa1ddf42bc14d315a85a7d6, type: 2}
+  Choices: []

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
+  m_Name: 30
+  m_EditorClassIdentifier: 
+  Name: Fancy Date with Dapper Cthulhu
+  Dialogue: "He carries you to a sacrificial altar that is decorated with candles
+    in various stages of melting.\r\nThere\u2019s also a sheet upon it.\r\n\u2026it\u2019s
+    writhing\u2026\r\nHe places you near the table and hands you a dagger.\r\nMuffled
+    screams come from the sheet.\r\nYou look up at Cthulhu, who stares back with a
+    look of unparalleled excitement."
+  Event: 0
+  Choices:
+  - Response: '[What in the world is THAT!]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 100
+    Next: {fileID: 11400000, guid: 2a1db807552b6294ba808029750c04b8, type: 2}
+  - Response: '[What a lOVelY song it sings!]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: -10
+    Next: {fileID: 11400000, guid: 2a1db807552b6294ba808029750c04b8, type: 2}
+  - Response: '[Is the surprise a sacrifice?]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: -5
+    Next: {fileID: 11400000, guid: 2a1db807552b6294ba808029750c04b8, type: 2}

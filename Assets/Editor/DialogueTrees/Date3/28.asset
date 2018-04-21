@@ -11,7 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
   m_Name: 28
   m_EditorClassIdentifier: 
-  Name: 
-  Dialogue: 
+  Name: Cthulhu
+  Dialogue: '"We are going on a fancy date!"'
   Event: 0
-  Choices: []
+  Choices:
+  - Response: '[......]'
+    SanityLowest: 0
+    SanityHighest: 0
+    SanityChange: 0
+    Next: {fileID: 11400000, guid: 5a8ed9971084d2b42af65882ea0d0107, type: 2}

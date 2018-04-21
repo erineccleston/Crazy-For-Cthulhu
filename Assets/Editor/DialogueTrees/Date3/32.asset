@@ -9,25 +9,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed1ca1d47768054dbc802cb56ea580a, type: 3}
-  m_Name: 27
+  m_Name: 32
   m_EditorClassIdentifier: 
   Name: Cthulhu
-  Dialogue: "\"I\u2019m most pleased to see that you\u2019ve awoken. You have been
-    sleeping excessively.\""
+  Dialogue: '"This is an offering that is especially for you."'
   Event: 0
   Choices:
-  - Response: '[I feel refreshed.]'
+  - Response: '[You raise the dagger, laughing gleefully.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: -10
-    Next: {fileID: 11400000, guid: 9ab9ea9946b37434997ea12040339885, type: 2}
-  - Response: '[How long have I been out?]'
+    Next: {fileID: 11400000, guid: ccd9885228b2bad4ca83f3236f520b98, type: 2}
+  - Response: '[You examine the dagger, poising it over the cultist.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 0
-    Next: {fileID: 11400000, guid: 9ab9ea9946b37434997ea12040339885, type: 2}
-  - Response: '[Your crazy pancakes could have killed me!]'
+    Next: {fileID: 11400000, guid: ccd9885228b2bad4ca83f3236f520b98, type: 2}
+  - Response: '[You go to toss the dagger aside.]'
     SanityLowest: 0
     SanityHighest: 0
     SanityChange: 10
-    Next: {fileID: 11400000, guid: 9ab9ea9946b37434997ea12040339885, type: 2}
+    Next: {fileID: 11400000, guid: ccd9885228b2bad4ca83f3236f520b98, type: 2}
