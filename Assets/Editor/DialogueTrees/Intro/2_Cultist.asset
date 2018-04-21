@@ -18,5 +18,5 @@ MonoBehaviour:
   - Response: '[......]'
     SanityLowest: 0
     SanityHighest: 0
-    SanityChange: 0
+    SanityChange: -1000
     Next: {fileID: 11400000, guid: eb6445cf297f39243b31b68f00128ce1, type: 2}

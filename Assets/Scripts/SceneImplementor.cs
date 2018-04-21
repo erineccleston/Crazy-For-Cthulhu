@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneImplementorScript : MonoBehaviour
+public class SceneImplementor : MonoBehaviour
 {
     static GameObject GameOverInsane;
     static GameObject GameOverSane;
