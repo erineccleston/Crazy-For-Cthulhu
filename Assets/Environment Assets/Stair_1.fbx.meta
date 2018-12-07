@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: e5f2208bc385e914cb6763278a5cfa4a
-timeCreated: 1518254117
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: lichen9Main_MeshPart0
     100002: lichen9Main_MeshPart1
@@ -16,12 +14,15 @@ ModelImporter:
     2300000: lichen9Main_MeshPart0
     2300002: lichen9Main_MeshPart1
     2300004: lichen9Main_MeshPart2
+    2300006: //RootNode
     3300000: lichen9Main_MeshPart0
     3300002: lichen9Main_MeshPart1
     3300004: lichen9Main_MeshPart2
+    3300006: //RootNode
     4300000: lichen9Main_MeshPart0
     4300002: lichen9Main_MeshPart1
     4300004: lichen9Main_MeshPart2
+    4300006: lichen9Main
     9500000: //RootNode
   externalObjects:
   - first:
@@ -127,6 +128,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -151,11 +153,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.099999994
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

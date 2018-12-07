@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: ea22bdb3b00fe7c48894bb61fa678ae4
-timeCreated: 1518257996
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: alienGrass81Main
     100002: alienGrass81MeshGroup
@@ -404,6 +402,7 @@ ModelImporter:
     2300028: lichen51Main_MeshPart7
     2300030: lichen51Main_MeshPart8
     2300032: lichen51Main_MeshPart9
+    2300034: lichen51Main
     3300000: lichen51Main_MeshPart0
     3300002: lichen51Main_MeshPart1
     3300004: lichen51Main_MeshPart10
@@ -421,6 +420,7 @@ ModelImporter:
     3300028: lichen51Main_MeshPart7
     3300030: lichen51Main_MeshPart8
     3300032: lichen51Main_MeshPart9
+    3300034: lichen51Main
     4300000: lichen51Main_MeshPart0
     4300002: lichen51Main_MeshPart1
     4300004: lichen51Main_MeshPart2
@@ -438,6 +438,7 @@ ModelImporter:
     4300028: lichen51Main_MeshPart14
     4300030: lichen51Main_MeshPart15
     4300032: lichen51Main_MeshPart16
+    4300034: lichen51Main
     9500000: //RootNode
   externalObjects:
   - first:
@@ -653,6 +654,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -677,11 +679,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

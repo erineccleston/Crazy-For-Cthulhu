@@ -75,68 +75,71 @@ public class DialogManager : MonoBehaviour {
 
     public void presentChoice()
     {
-        //hides the date's words and name and dialogue "next sentence" button.
-        dateName.SetActive(false);
-        dateWords.SetActive(false);
-
-        //shows your name and choices, diables invalid choices.
-        yourName.SetActive(true);
-        for(int i = 0; i < CurrentNode.Choices.Length; i++)
+        if (CurrentNode.Choices.Length > 0)
         {
-            if (i == 0)
-            {
-                opt1.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
-                opt1.SetActive(true);
-                //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
-                //{
-                //    opt1.GetComponent<Button>().interactable = true;
-                //}
-                //else
-                //{
-                //    opt1.GetComponent<Button>().interactable = false;
-                //}
-            }
+            //hides the date's words and name and dialogue "next sentence" button.
+            dateName.SetActive(false);
+            dateWords.SetActive(false);
 
-            if (i == 1)
+            //shows your name and choices, diables invalid choices.
+            yourName.SetActive(true);
+            for (int i = 0; i < CurrentNode.Choices.Length; i++)
             {
-                opt2.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
-                opt2.SetActive(true);
-                //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
-                //{
-                //    opt2.GetComponent<Button>().interactable = true;
-                //} else
-                //{
-                //    opt2.GetComponent<Button>().interactable = false;
-                //}
-                
-            }
+                if (i == 0)
+                {
+                    opt1.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
+                    opt1.SetActive(true);
+                    //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
+                    //{
+                    //    opt1.GetComponent<Button>().interactable = true;
+                    //}
+                    //else
+                    //{
+                    //    opt1.GetComponent<Button>().interactable = false;
+                    //}
+                }
 
-            if (i == 2)
-            {
-                opt3.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
-                opt3.SetActive(true);
-                //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
-                //{
-                //    opt3.GetComponent<Button>().interactable = true;
-                //}
-                //else
-                //{
-                //    opt3.GetComponent<Button>().interactable = false;
-                //}
-            }
+                if (i == 1)
+                {
+                    opt2.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
+                    opt2.SetActive(true);
+                    //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
+                    //{
+                    //    opt2.GetComponent<Button>().interactable = true;
+                    //} else
+                    //{
+                    //    opt2.GetComponent<Button>().interactable = false;
+                    //}
 
-            if (i == 3)
-            {
-                opt4.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
-                opt4.SetActive(true);
-                //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
-                //{
-                //    opt4.GetComponent<Button>().interactable = true;
-                //}
-                //else
-                //{
-                //    opt4.GetComponent<Button>().interactable = false;
-                //}
+                }
+
+                if (i == 2)
+                {
+                    opt3.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
+                    opt3.SetActive(true);
+                    //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
+                    //{
+                    //    opt3.GetComponent<Button>().interactable = true;
+                    //}
+                    //else
+                    //{
+                    //    opt3.GetComponent<Button>().interactable = false;
+                    //}
+                }
+
+                if (i == 3)
+                {
+                    opt4.GetComponent<Text>().text = CurrentNode.Choices[i].Response;
+                    opt4.SetActive(true);
+                    //if (sanity_bar.Sanity < CurrentNode.Choices[i].SanityHighest && sanity_bar.Sanity > CurrentNode.Choices[i].SanityLowest)
+                    //{
+                    //    opt4.GetComponent<Button>().interactable = true;
+                    //}
+                    //else
+                    //{
+                    //    opt4.GetComponent<Button>().interactable = false;
+                    //}
+                }
             }
         }
     }
